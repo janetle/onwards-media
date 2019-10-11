@@ -1,0 +1,172 @@
+
+/*------Header ---------*/
+.header {
+  background-color: #181818;
+}
+.image{
+  display: block;
+  margin:auto;
+ 
+}
+.caption{
+
+  background-color: #242425;
+  text-align: center;
+  color:floralwhite;
+  padding:10px;
+  font-size: 14px;
+  font-weight: 8;
+}
+/*----Header ends ----*/
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  
+}
+.link {
+  display:flex;
+  justify-content: space-between;
+  color:#e0e0e045;
+}
+.link a{
+  color:#e0e0e045;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 4;
+
+}
+hr{
+  margin-top: 50px;
+  border: 0;
+  height: 1px;
+  background: #bdbdbd;
+}
+.footer p{
+  color:#e0e0e045;
+  text-align: center;
+  font-size: 14px;
+}
+
+h1 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+.form {
+  background: #0e101c;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+p {
+  color: #e91e63c4;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border:none;
+  border-radius: 4px;
+  padding: 15px 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  background-color:#00000069;
+  color:white;
+}
+
+input[type="submit"] {
+  background: #75c398;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 15px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 20;
+  /*letter-spacing: 5px;*/
+}
+input:focus {
+  outline-color: white;
+  outline-style: thin;
+} 
+
+input[type="submit"]:hover {
+  background: #2e7d32;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: none;
+  opacity: 0.8;
+
+}
+
+input:disabled {
+  opacity: 0.4;
+}
+
+input[type="button"]:hover {
+  transition: 0.3s all;
+  border:none;
+}
+
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+.main{
+  background: #29292b;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin:0 ;
+  padding:0;
+
+}
+
+.App {
+  max-width: 450px;
+  margin: 30px auto;
+}
+.userEmail{
+  margin-top: 150px;
+  margin-bottom:300px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 20;
+  color:#75c398;;
+}
+@media screen and (min-width: 700px) {
+  .image {
+    padding-top: 30px;
+    padding-bottom:20px;
+    
+  }
+  .caption{
+    padding:20px;
+    font-size: 18px;
+    font-weight: 8;
+  }
+  form {
+    margin-top: 30x;
+  }
+  hr{
+  margin-top: 50px;
+  }
+}
